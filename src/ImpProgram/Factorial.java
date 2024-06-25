@@ -1,0 +1,18 @@
+package ImpProgram;
+/*  factorial of 5= 5*4*3*2*1=120
+ *  
+ */
+public class Factorial {
+	static int fact(int n)
+	{
+		if(n==1)
+			return 1;
+		return (n*fact(n-1));
+	}
+
+	public static void main(String []s)
+	{
+		System.out.println("factorail of 5    "+fact(6));
+	
+	}
+}
